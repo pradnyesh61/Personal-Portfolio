@@ -16,7 +16,7 @@ import ProjectDisplay from "./ChildPage/ProjectDisplay";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/Personal-Portfolio">
       <Navbar/>
         <Routes>
           <Route path = "/" element = {<Home />} />
