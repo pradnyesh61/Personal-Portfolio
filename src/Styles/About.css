@@ -1,4 +1,4 @@
-.about {
+/* .about {
     width: 100%;
     height: auto;
     display: flex;
@@ -17,3 +17,49 @@
     background-size: cover;
     margin-top: 10px;
   }
+     */
+
+     body {
+      overflow-x: hidden;
+      margin: 0;
+      padding: 0;
+  }
+     .about {
+      width: 100%;
+      display: flex;
+      /* justify-content: center; */
+      /* align-items: center; */
+      gap: 20px; /* Space between image and text */
+      padding: 20px;
+      overflow: hidden;
+  }
+
+  /* .bgImage {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 50%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+  } */
+  
+   .bgImageAbout {
+      border-radius: 15px;
+      width: 35%; 
+      height: 500px; 
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-right: 5%;
+      margin-left: 3%;
+  } 
+  
+  .details {
+      width: 40%; /* Match width of image */
+      height: 300px; /* Same height as image */
+      /* display: flex;
+      flex-direction: column; */
+  }
+  

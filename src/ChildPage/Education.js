@@ -11,9 +11,10 @@ import SchoolIcon from "@material-ui/icons/School";
 function Education() {
   return (
     <div className="education">
+    
+      <div>
       <Qualification />
 
-      <div>
         <VerticalTimeline lineColor="#3e497a">
           <VerticalTimelineElement
             className="vertical-timeline-element--education"

@@ -1,3 +1,20 @@
+/* 
+body {
+  padding: 0;
+  margin: 0;
+} */
+
+/* App.css */
+html, body {
+  height: 100%; /* Ensure full height */
+  margin: 0;    /* Remove default margin */
+  
+}
+
+main {
+  flex-grow: 1; /* Makes sure the content takes up all available space */
+}
+
 .App {
   width: 100%;
   height: auto;
@@ -5,9 +22,7 @@
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f0f0f0;
+  min-height: 100vh; /* Ensure the App container takes at least full viewport height */
 }
 
-body {
-  padding: 0;
-  margin: 0;
-}
+

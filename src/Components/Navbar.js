@@ -28,7 +28,7 @@ function Navbar() {
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         {/* <Link to = "/qualification">Qualification</Link> */}
-        <Link to="/education">Education</Link>
+        <Link to="/education">Timeline</Link>
         <Link to="/skills">Skills</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/cp_profile">CP_Profile</Link>

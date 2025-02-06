@@ -9,16 +9,19 @@ function Home() {
   return (
     <div className="home">
       <h2>Hi ,I'm Pradnyesh Salunke</h2>
-      <h3>A Full Stack Developer</h3>
-      <h3>let's Build Something Together</h3>
+      {/* <h3>A Full Stack Developer</h3> */}
+      <h3>Full Stack Developer As A Junior Software Engineer.</h3>
+      <h3>Passionate about crafting efficient, impactful solutions.</h3> 
+      <h3>Let’s build something meaningful together."</h3>
+      {/* <h3>As a Jr. Software Engineer</h3> */}
+      {/* <h3>let's Build Something Together</h3> */}
 
-      <div className="socialMedia">
+      {/* <div className="socialMedia">
         <LinkedInIcon />
         <GitHubIcon />
-        {/* <h3>
-<a className="resume" href="https://drive.google.com/file/d/1PMdbvLSmBeJP1jcNEcrsCE9_0FWDI-VH/view?usp=sharing" target="_blank" download>Resume</a>
-        </h3> */}
-      </div>
+      </div> */}
+
+      
     </div>
   );
 }
