@@ -32,7 +32,7 @@ function Navbar() {
         <Link to="/skills">Skills</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/cp_profile">CP_Profile</Link>
-        <a
+        {/* <a
           className="resume"
           // href="https://drive.google.com/file/d/1PMdbvLSmBeJP1jcNEcrsCE9_0FWDI-VH/view?usp=sharing"
           href="https://drive.google.com/file/d/1PMdbvLSmBeJP1jcNEcrsCE9_0FWDI-VH/view?usp=sharing"
@@ -40,7 +40,17 @@ function Navbar() {
           download
         >
           Resume
-        </a>
+        </a> */}
+
+        <a
+  className="resume"
+  href="https://drive.google.com/uc?export=download&id=1PMdbvLSmBeJP1jcNEcrsCE9_0FWDI-VH"
+  target="_blank"
+  download
+>
+  Resume
+</a>
+
         <Link to="/contact">Contact</Link>
       </div>
     </div>
