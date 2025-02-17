@@ -44,9 +44,9 @@ function Navbar() {
 
         <a
   className="resume"
-  href="https://drive.google.com/uc?export=download&id=1PMdbvLSmBeJP1jcNEcrsCE9_0FWDI-VH"
+  href={process.env.PUBLIC_URL + '/Pradnyesh_Salunke.pdf'}
   target="_blank"
-  download
+  
 >
   Resume
 </a>
