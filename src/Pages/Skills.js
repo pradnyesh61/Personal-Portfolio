@@ -1,62 +1,48 @@
-import React from 'react'
-import { useEffect } from "react"
-import SkillItem from '../Components/SkillItem'
-import { SkillList } from '../Helpers/SkillList'
+import React, { useEffect } from "react";
+import "../Styles/Skills.css";
 
-import '../Styles/Skills.css'
+const SkillsTable = () => {
+  const skills = {
+    "Programming Languages": ["C", "C++", "Java", "Python"],
+    "Databases": ["MySQL", "Oracle", "H2", "Firebase", "MongoDB", "DB2"],
+    "Development": ["Web-Development", "Android-Development"],
+    "Frameworks": ["Spring Boot", "Angular", "React", "Apache Camel", "Apache Spark"],
+    "Tools & Technologies": ["GitHub", "Swagger", "AWS", "REST APIs", "SonarQube"],
+    "Concepts": ["Data Structures & Algorithms", "Microservices", "Security Policies"]
+  };
+
+  return (
+    <div className="skills-container">
+        <table className="skills-table">
+            <tbody>
+                {Object.entries(skills).map(([category, values], index) => (
+                    <tr key={index}>
+                        <th>{category}</th>
+                        <td>
+                            <div className="skills-blocks">
+                                {values.map((value, idx) => (
+                                    <span key={idx} className="skills-block">{value}</span>
+                                ))}
+                            </div>
+                        </td>
+                    </tr>
+                ))}
+            </tbody>
+        </table>
+    </div>
+);
+};
+
 
 
 function Skills() {
-
-  const getData = async() => {
-    try{
-      const url = "https://docs.google.com/spreadsheets/d/1RqYnd8QLzut5ym6N-QMm9JH_vWrGEQLH/export?format=csv";    
-      fetch(url).then(response => {
-        console.log(response);
-        return response.json();
-      }).then(data => {
-        // Work with JSON data here
-        console.log(data);
-      }).catch(err => {
-        // Do something for an error here
-        console.log("Error Reading data " + err);
-      });
-
-      fetch(url).then(result=>{
-        console.log(result);
-        console.log("bye")
-        result.text().then(csvtext => {
-        console.log("Hello")
-        console.log(csvtext)})
-    });
-
-   
-      // const res = await fetch(
-      //  "https://docs.google.com/spreadsheets/d/1RqYnd8QLzut5ym6N-QMm9JH_vWrGEQLH/export?format=csv"
-      // );
-   //   console.log(res);
-  
-  }catch(error){
-      console.log(error);
-    }
-  };
-
-  useEffect(() => {
-getData();
-  });
-
   return (
-<div className="skills">
+    <div className="skills">
       <h1>What can I do</h1>
-      <div className="skillsList">
-        {SkillList.map((project, idx) => {
-          return <SkillItem id = {idx}  name = {project.name} image = {project.image}/>
-        })}
-
-
-      </div>
+      <SkillsTable />
     </div>
-  )
+
+  );
 }
 
-export default Skills
+export default Skills;

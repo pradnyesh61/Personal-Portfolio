@@ -1,74 +1,52 @@
 .skills {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .skills .skillsTitle {
-    text-align: center;
-    color: #3e497a;
-    font-size: 20px;
-    font-weight: bolder;
-  }
-  
-  .skillsList {
-    width: 70vw;
-    height: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    place-items: center;
-  }
-  
-  /* MENU ITEM STYLING */
-  
-  .skillsItem {
-    border-radius: 15px;
-    width: 300px;
-    height: 300px;
-    margin: 30px;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-    text-align: center;
-  }
-  .skillsItem:hover {
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
-    transition: 0.3s ease-in;
-    cursor: pointer;
-  }
-  
-  .skillsItem .bgImage {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    width: 100%;
-    height: 200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  .skillsItem h1 {
-    font-size: 25px;
-  }
-  
-  @media only screen and (max-width: 1300px) {
-    .projectList {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
-  
-  @media only screen and (max-width: 800px) {
-    .projectList {
-      grid-template-columns: 1fr;
-    }
-  }
-  
-  @media only screen and (max-width: 800px) {
-    .projectList {
-      width: 100%;
-    }
-    .projectItem {
-      width: 300px;
-      height: 300px;
-    }
-  }
+  font-size: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills h1 {
+  color: #3e497a;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+}
+
+.skills-table {
+  border: 2px solid #121d30; 
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.skills-table th {
+  background-color: #f7fafc; 
+  color: #1e223d;
+  border: 2px solid #4a5568;
+  padding: 0px 10px 0px 10px;
+  text-align: center;
+}
+
+.skills-table td {
+  padding: 4px;
+  border: 2px solid #4a5568;
+}
+
+.skills-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skills-block {
+  padding: 6px 12px;
+  margin:  5px 1px;
+  background-color: #bfdbfe; 
+  color: #1e3a8a;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} 

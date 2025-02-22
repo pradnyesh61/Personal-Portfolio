@@ -34,19 +34,7 @@
     /* margin: 5px; */
     color: white;
   }
-  
-  .skills {
-    font-size: 35px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .skills h1 {
-    color: #3e497a;
-  }
+
   
   .skills .list {
     list-style: none;
