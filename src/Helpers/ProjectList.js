@@ -10,6 +10,24 @@ import attandanceArchitecture from "../assets/Attandace_Architecture.jpg"
 import kinderGartenAppImage from "../assets/Kindergaten_App_Image.jpg"
 import KindergartenVideo  from "../assets/KindergartenVideo.mp4"
 
+
+import pdms_video  from "../assets/PDMS.mp4"
+import paint_video  from "../assets/Paint.mp4"
+import translator_video  from "../assets/Translator.mp4"
+import fileProcessing_video  from "../assets/FileProcessing.mp4"
+import calculator_video  from "../assets/Calculator.mp4"
+import chat_video  from "../assets/Chat.mp4"
+
+import chat_Image  from "../assets/chat_Image.png"
+import pdms_Image  from "../assets/pdms_Image.png"
+import pdms_logo  from "../assets/pdms_logo.png"
+import fileProcessing_Image  from "../assets/fileProcessing_Image.png"
+import translator_image  from "../assets/translator_image.png"
+import calculator_Image  from "../assets/calculator_Image.png"
+import paint_image  from "../assets/paint_image.png"
+
+
+
 export const ProjectList = [
     {
         name: "Attandance",
@@ -22,36 +40,39 @@ export const ProjectList = [
         skills: "Java, Android, Full-Stack Development"
     },
 
+    
+    {
+        name: "PDMS",
+          image: [
+            { type: 'image', src: pdms_Image},
+            { type: 'video', src:pdms_video},
+            { type: 'image', src: pdms_logo}
+          ],
+          
+        skills: "Java, Android, Full-Stack Development"
+    },
+
+    {
+        name: "Chat Application",
+          image: [
+            { type: 'image', src: chat_Image },
+            { type: 'video', src:chat_video}
+          ],
+          
+        skills: "Java, Android, Full-Stack Development"
+    },
+
+
     {
         name: "File Processing",
-        image: p2
+          image: [
+            { type: 'image', src: fileProcessing_Image },
+            { type: 'video', src:fileProcessing_video}
+          ],
+          
+        skills: "Java, Android, Full-Stack Development"
     },
 
-    {
-        name:"PDMS",
-        image: p3
-    },
-
-    {
-        name:"Translator",
-        image: p4
-    },
-
-    {
-        name:"Chat Application",
-        image: p5
-    },
-    
-    {
-        name:"Calculator",
-        image: p6
-    },
-
-    {
-        name:"Memes App",
-        image: p5
-    },
-    
     {
         name: "Kindergarten",
         image: [
@@ -61,6 +82,36 @@ export const ProjectList = [
         
       skills: "Java, Android, Full-Stack Development"
     },
-    
+
+    {
+        name: "Translator",
+        image: [
+          { type: 'image', src: translator_image },
+          { type: 'video', src:translator_video},
+        ],
+        
+      skills: "Java, Android, Full-Stack Development"
+    },
+
+    {
+        name: "Calculator",
+        image: [
+          { type: 'image', src: calculator_Image },
+          { type: 'video', src:calculator_video},
+        ],
+        
+      skills: "Java, Android, Full-Stack Development"
+    },
+
+    {
+        name: "paint",
+        image: [
+          { type: 'image', src: paint_image },
+          { type: 'video', src:paint_video},
+        ],
+        
+      skills: "Java, Android, Full-Stack Development"
+    },
+
     
 ]
