@@ -1,32 +1,45 @@
 {
   "files": {
     "main.css": "/Personal-Portfolio/static/css/main.cae55206.css",
-    "main.js": "/Personal-Portfolio/static/js/main.1e54a1f4.js",
+    "main.js": "/Personal-Portfolio/static/js/main.49ed0771.js",
     "static/js/787.fb771931.chunk.js": "/Personal-Portfolio/static/js/787.fb771931.chunk.js",
     "static/media/Attendance.mp4": "/Personal-Portfolio/static/media/Attendance.305dde0873395e85eb4e.mp4",
     "static/media/KindergartenVideo.mp4": "/Personal-Portfolio/static/media/KindergartenVideo.9eb6a02c0408a2a90655.mp4",
+    "static/media/PDMS.mp4": "/Personal-Portfolio/static/media/PDMS.42017c6c6cbd01aa595b.mp4",
+    "static/media/Chat.mp4": "/Personal-Portfolio/static/media/Chat.22d2d6dd0771a0d8cb3f.mp4",
+    "static/media/FileProcessing.mp4": "/Personal-Portfolio/static/media/FileProcessing.34d4c5d3c1c4dbdfb11d.mp4",
+    "static/media/Calculator.mp4": "/Personal-Portfolio/static/media/Calculator.80c33d0f304cda97c57f.mp4",
+    "static/media/Translator.mp4": "/Personal-Portfolio/static/media/Translator.3bd2baaa3b034d6dfc6c.mp4",
+    "static/media/Paint.mp4": "/Personal-Portfolio/static/media/Paint.73a5f609deb9933fdfef.mp4",
     "static/media/Pradnyesh.jpg": "/Personal-Portfolio/static/media/Pradnyesh.eaba2c7e4aef7840554c.jpg",
+    "static/media/pdms_logo.png": "/Personal-Portfolio/static/media/pdms_logo.2674135d66bae713d36d.png",
     "static/media/1.jpg": "/Personal-Portfolio/static/media/1.2c3b2670b0e3a35b47c8.jpg",
     "static/media/3.jpg": "/Personal-Portfolio/static/media/3.42bc2389a8c5a3892ffd.jpg",
     "static/media/Attandace_Architecture.jpg": "/Personal-Portfolio/static/media/Attandace_Architecture.3efd5626bf7b5477bdb1.jpg",
     "static/media/4.jpg": "/Personal-Portfolio/static/media/4.6ec40fc150963b090969.jpg",
+    "static/media/fileProcessing_Image.png": "/Personal-Portfolio/static/media/fileProcessing_Image.388767bb07447e940f00.png",
     "static/media/5.jpg": "/Personal-Portfolio/static/media/5.50af81a2736658a5c207.jpg",
+    "static/media/paint_image.png": "/Personal-Portfolio/static/media/paint_image.77292449df0b8fda5218.png",
     "static/media/LeetCode.png": "/Personal-Portfolio/static/media/LeetCode.d500bb7c08811162a15d.png",
     "static/media/6.jpg": "/Personal-Portfolio/static/media/6.58f7eb59fc2de354583b.jpg",
     "static/media/2.jpg": "/Personal-Portfolio/static/media/2.8bf49f7de20e01f457ff.jpg",
     "static/media/Kindergaten_App_Image.jpg": "/Personal-Portfolio/static/media/Kindergaten_App_Image.43f029b6e876279b0f40.jpg",
+    "static/media/pdms_Image.png": "/Personal-Portfolio/static/media/pdms_Image.3aaa4fc36950259b7377.png",
     "static/media/geeksforgeeks.jpg": "/Personal-Portfolio/static/media/geeksforgeeks.9fd0c7de5ef44a385b7e.jpg",
+    "static/media/translator_image.png": "/Personal-Portfolio/static/media/translator_image.f3651c487b57926e6cec.png",
+    "static/media/chat_Image.png": "/Personal-Portfolio/static/media/chat_Image.5959df300231405ada3a.png",
+    "static/media/calculator_Image.png": "/Personal-Portfolio/static/media/calculator_Image.2b52998a29dfe189758e.png",
     "static/media/slick.svg": "/Personal-Portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Personal-Portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Personal-Portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Personal-Portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Personal-Portfolio/index.html",
     "main.cae55206.css.map": "/Personal-Portfolio/static/css/main.cae55206.css.map",
-    "main.1e54a1f4.js.map": "/Personal-Portfolio/static/js/main.1e54a1f4.js.map",
+    "main.49ed0771.js.map": "/Personal-Portfolio/static/js/main.49ed0771.js.map",
     "787.fb771931.chunk.js.map": "/Personal-Portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cae55206.css",
-    "static/js/main.1e54a1f4.js"
+    "static/js/main.49ed0771.js"
   ]
 }
