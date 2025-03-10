@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal-Portfolio/static/css/main.cae55206.css",
-    "main.js": "/Personal-Portfolio/static/js/main.49ed0771.js",
+    "main.js": "/Personal-Portfolio/static/js/main.2f897882.js",
     "static/js/787.fb771931.chunk.js": "/Personal-Portfolio/static/js/787.fb771931.chunk.js",
     "static/media/Attendance.mp4": "/Personal-Portfolio/static/media/Attendance.305dde0873395e85eb4e.mp4",
     "static/media/KindergartenVideo.mp4": "/Personal-Portfolio/static/media/KindergartenVideo.9eb6a02c0408a2a90655.mp4",
@@ -14,15 +14,10 @@
     "static/media/Pradnyesh.jpg": "/Personal-Portfolio/static/media/Pradnyesh.eaba2c7e4aef7840554c.jpg",
     "static/media/pdms_logo.png": "/Personal-Portfolio/static/media/pdms_logo.2674135d66bae713d36d.png",
     "static/media/1.jpg": "/Personal-Portfolio/static/media/1.2c3b2670b0e3a35b47c8.jpg",
-    "static/media/3.jpg": "/Personal-Portfolio/static/media/3.42bc2389a8c5a3892ffd.jpg",
     "static/media/Attandace_Architecture.jpg": "/Personal-Portfolio/static/media/Attandace_Architecture.3efd5626bf7b5477bdb1.jpg",
-    "static/media/4.jpg": "/Personal-Portfolio/static/media/4.6ec40fc150963b090969.jpg",
     "static/media/fileProcessing_Image.png": "/Personal-Portfolio/static/media/fileProcessing_Image.388767bb07447e940f00.png",
-    "static/media/5.jpg": "/Personal-Portfolio/static/media/5.50af81a2736658a5c207.jpg",
     "static/media/paint_image.png": "/Personal-Portfolio/static/media/paint_image.77292449df0b8fda5218.png",
     "static/media/LeetCode.png": "/Personal-Portfolio/static/media/LeetCode.d500bb7c08811162a15d.png",
-    "static/media/6.jpg": "/Personal-Portfolio/static/media/6.58f7eb59fc2de354583b.jpg",
-    "static/media/2.jpg": "/Personal-Portfolio/static/media/2.8bf49f7de20e01f457ff.jpg",
     "static/media/Kindergaten_App_Image.jpg": "/Personal-Portfolio/static/media/Kindergaten_App_Image.43f029b6e876279b0f40.jpg",
     "static/media/pdms_Image.png": "/Personal-Portfolio/static/media/pdms_Image.3aaa4fc36950259b7377.png",
     "static/media/geeksforgeeks.jpg": "/Personal-Portfolio/static/media/geeksforgeeks.9fd0c7de5ef44a385b7e.jpg",
@@ -35,11 +30,11 @@
     "static/media/slick.woff": "/Personal-Portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Personal-Portfolio/index.html",
     "main.cae55206.css.map": "/Personal-Portfolio/static/css/main.cae55206.css.map",
-    "main.49ed0771.js.map": "/Personal-Portfolio/static/js/main.49ed0771.js.map",
+    "main.2f897882.js.map": "/Personal-Portfolio/static/js/main.2f897882.js.map",
     "787.fb771931.chunk.js.map": "/Personal-Portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cae55206.css",
-    "static/js/main.49ed0771.js"
+    "static/js/main.2f897882.js"
   ]
 }
