@@ -1,9 +1,3 @@
-import p1 from "../assets/1.jpg"
-import p2 from "../assets/2.jpg"
-import p3 from "../assets/3.jpg"
-import p4 from "../assets/4.jpg"
-import p5 from "../assets/5.jpg"
-import p6 from "../assets/6.jpg"
 import attandanceVideo  from "../assets/Attendance.mp4"
 import attandanceAppImage from "../assets/Attandance_App_Image.jpg"
 import attandanceArchitecture from "../assets/Attandace_Architecture.jpg"
@@ -31,13 +25,14 @@ import paint_image  from "../assets/paint_image.png"
 export const ProjectList = [
     {
         name: "Attandance",
-          image: [
+        image: [
             { type: 'image', src: attandanceArchitecture },
             { type: 'video', src:attandanceVideo},
             { type: 'image', src:  attandanceAppImage},
-          ],
-          
-        skills: "Java, Android, Full-Stack Development"
+        ],
+        description:"Developed an attendance system to reduce the time that is consumed when attendance is taken manually and also to reduce paper use. ", 
+        skills: "Java, Android, Firebase - DB",
+        githubLink: "https://github.com/pradnyesh61/Attendance-App"
     },
 
     
@@ -48,8 +43,9 @@ export const ProjectList = [
             { type: 'video', src:pdms_video},
             { type: 'image', src: pdms_logo}
           ],
-          
-        skills: "Java, Android, Full-Stack Development"
+          description:"PDMS stands for patient data management system, where I have developed the ui with Swing from advance Java and used sql for Database. I have created a exe file so that just providing that is sufficient for the Client to use the application.",
+        skills: "Advance Java, SQL",
+        githubLink:"https://github.com/pradnyesh61/PDMS"
     },
 
     {
@@ -58,8 +54,8 @@ export const ProjectList = [
             { type: 'image', src: chat_Image },
             { type: 'video', src:chat_video}
           ],
-          
-        skills: "Java, Android, Full-Stack Development"
+          description:"Developed a chatting application using java and ROT13 algorithm's mechanism for encryption and decryption process, The purpose of the chat application is to allow users be able to do the chat with each other.",
+        skills: "Advance Java"
     },
 
 
@@ -69,8 +65,9 @@ export const ProjectList = [
             { type: 'image', src: fileProcessing_Image },
             { type: 'video', src:fileProcessing_video}
           ],
-          
-        skills: "Java, Android, Full-Stack Development"
+          description:"Flat file and index file is provided , index file contains the indexes of words from flat file, I read the flat file by the indexes and store it into h2 DB.",
+        skills: "Java, spring boot, Apache Spark",
+        githubLink:"https://github.com/pradnyesh61/FileProcessing"
     },
 
     {
@@ -79,8 +76,8 @@ export const ProjectList = [
           { type: 'image', src: kinderGartenAppImage },
           { type: 'video', src:KindergartenVideo},
         ],
-        
-      skills: "Java, Android, Full-Stack Development"
+        description:"An app for children to learn basics under age - 7.",
+      skills: "Java, Android"
     },
 
     {
@@ -89,8 +86,8 @@ export const ProjectList = [
           { type: 'image', src: translator_image },
           { type: 'video', src:translator_video},
         ],
-        
-      skills: "Java, Android, Full-Stack Development"
+        description:"Translator with in multiple languages in text and also provides speech option.",
+      skills: "Python"
     },
 
     {
@@ -99,8 +96,9 @@ export const ProjectList = [
           { type: 'image', src: calculator_Image },
           { type: 'video', src:calculator_video},
         ],
-        
-      skills: "Java, Android, Full-Stack Development"
+        description:"calculator for smoothly do the maths.",
+      skills: "Java",
+      githubLink: "https://github.com/pradnyesh61/Calculator"
     },
 
     {
@@ -109,8 +107,8 @@ export const ProjectList = [
           { type: 'image', src: paint_image },
           { type: 'video', src:paint_video},
         ],
-        
-      skills: "Java, Android, Full-Stack Development"
+        description:"Paint page, for the childrens to paint whatever they want to in multiple colors",
+      skills: "Advance Java"
     },
 
     

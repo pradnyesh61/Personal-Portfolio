@@ -18,11 +18,16 @@
     "express": "^4.21.2",
     "nodemailer": "^6.10.0",
     "react": "^18.2.0",
+    "react-alice-carousel": "^2.9.1",
     "react-dom": "^18.2.0",
+    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.30.3",
+    "react-slideshow-image": "^4.3.2",
     "react-toastify": "^11.0.3",
     "react-vertical-timeline-component": "^3.5.2",
+    "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
