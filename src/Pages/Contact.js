@@ -7,6 +7,12 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "../Styles/Contact.css";
 
+import PhoneIcon from "@mui/icons-material/Phone";     // Phone
+import PersonIcon from "@mui/icons-material/Person";
+import MailIcon from "@mui/icons-material/Mail";
+
+
+
 function Contact() {
   const form = useRef();
 
@@ -57,12 +63,17 @@ function Contact() {
       <div className="flex-child">
         {/* <img src={p1} alt="Logo" className="images" /> */}
         <h1 style={{ textAlign: "center" }}>Contact Me</h1>
-        <h2>Pradnyesh Balasaheb Salunke</h2>
-        <h3>Full Stack Engineer</h3>
-        <h4>Looking for a dedicated developer who can bring efficiency, scalability, and innovation to your next project? Let’s connect!</h4>
-        <LinkedInIcon />
-        <GitHubIcon />
+        
+        <h3>Looking for a dedicated developer who can bring efficiency, scalability, and innovation to your next project? Let’s connect!</h3>
+        <h4>Feel free to reach out through the contact details below, or fill out the form, and I will get back to you as soon as possible. Thanks!</h4>
+
+        <h3> <PersonIcon/> Pradnyesh Balasaheb Salunke</h3>
+        <h3> <PhoneIcon/> 8177855322</h3>
+        <h3> <MailIcon/>  salunkepradnyesh1@gmail.com</h3>
+        <h3>💻 Full Stack Engineer</h3>
+
       </div>
+      
 
       <div className="flex-child" id="form-div">
         <br />
