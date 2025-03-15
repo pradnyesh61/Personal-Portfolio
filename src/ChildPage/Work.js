@@ -21,26 +21,70 @@ function Work() {
             iconStyle={{ background: "#e9d35b", color: "#fff" }}
             icon={<WorkIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Cognizant</h3>
-            <p>Internship <br/>
+            <h3 className="vertical-timeline-element-title">Cognizant - Internship</h3>
+            <p>
             Full Stack Java Engineer <br/><br/>
-            Java Spring Boot, Rest API, Microservices, React, Swagger, DBMS ( MySQL, H2 ) <br/><br/>
-            I have learned all skill's mention above and practice on hand's-on WRT skills. <br/>
+            Java Spring Boot, Rest API, Microservices, React, Angular, Swagger, DBMS ( MySQL, H2 ) <br/><br/>
+            I have learned all skill's mention above and practice hand's-on With respective to skills. <br/>
             Using these skills build an Audit Management System ,where supply chain Management Organization wanted to automate the Audit process. </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
-            date="July-2022 Present"
+            date="Sep 2022 – Mar 2023"
             iconStyle={{ background: "#e9d35b", color: "#fff" }}
             icon={<WorkIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Cognizant</h3>
-            <p>Full Time</p>
-            <p>Programmer Analyst Trainee</p>
-            <p>Full Stack Java Engineer</p>
-            <p>Apache Camel, Java Spring Boot, Rest API, Microservices, React, Angular, Swagger ( Redocly ) , DBMS ( MySQL, H2 )</p>
-            <p>Worked on Payment Status Request usecase alone - developed end-to-end API with Apache Camel, also help in Request for Payment usecase, created a nice documentation for the Project, helped to debug services hosted on docker.</p>
+            <h3 className="vertical-timeline-element-title">Cognizant - Full Time</h3>
+            <p>Programmer Analyst Trainee - Full Stack Java Engineer</p>
+
+            <h3>OInsta </h3>
+            <ul>
+              <p>Apache Camel, Java, Spring Boot, Rest API, Microservices, Angular, Swagger ( Redocly ), Database - MongoDB</p>
+              <p>Developed an <strong>product</strong>  for Fednow Service,where I have worked with ISO 20022 SWIFT messaging standards <br/>like -  ( Pacs.028, Pacs.002, Pacs.009 , pain.013 ) to send and/or receive faster payments across the Fednow Service. </p>
+            </ul>
+          
+          
+          </VerticalTimelineElement>
+
+
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            date="Mar 2023 – Nov 2023"
+            iconStyle={{ background: "#e9d35b", color: "#fff" }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">Cognizant - Full Time</h3>
+            <p>Programmer Analyst - Full Stack Java Engineer</p>
+            <h3>ABACUS - Siteminder</h3>
+            <ul>
+              <p>Java, Spring boot, RestAPI, Microservices, Swagger, Database - PostGreSQL</p>
+              <p>Worked on migrating Abacus from site-minder to One Identity, where created <strong>Sequence Diagrams</strong>.</p>
+              <p>I alone was responsible for the backend develoment for the application with 99% test coverage.</p>
+            </ul>
+
+          
+          </VerticalTimelineElement>
+
+
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--education"
+            date="Nov 2023 – Feb 2025"
+            iconStyle={{ background: "#e9d35b", color: "#fff" }}
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">Cognizant - Full Time</h3>
+            <p>Programmer Analyst - Full Stack Java Engineer</p>
+            <h3>BTAC - RECON</h3>
+            <ul>
+              <p>Java, Spring boot, RestAPI, Microservices, Swagger, Database - IBM DB2, Hydra, IDAAS - Identity as a Service</p>
+              <p>Worked on migrating Business Travel Account to RECON, where alone <strong>single handedly handle one Micro-services.</strong></p>
+              <p>Creating Microservices from scratch to Develop, creating service, onboard on to Hydra and deploy to production without any bugs or issue with 95% above test coverage.</p>
+            </ul>
+          
+          
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
