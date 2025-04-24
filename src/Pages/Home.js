@@ -10,7 +10,7 @@ function Home() {
     <div className="home">
       <h2>Hi ,I'm Pradnyesh Salunke</h2>
       {/* <h3>A Full Stack Developer</h3> */}
-      <h3>Full Stack Developer As A Junior Software Engineer.</h3>
+      <h3>Full Stack Developer As A Software Engineer.</h3>
       <h3>Passionate about crafting efficient, impactful solutions.</h3> 
       <h3>Let’s build something meaningful together."</h3>
       {/* <h3>As a Jr. Software Engineer</h3> */}
