@@ -24,7 +24,7 @@ import paint_image  from "../assets/paint_image.png"
 
 export const ProjectList = [
     {
-        name: "Attandance",
+        name: "Attendance",
         image: [
             { type: 'image', src: attandanceArchitecture },
             { type: 'video', src:attandanceVideo},
